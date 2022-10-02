@@ -72,8 +72,10 @@ export default {
             },
             ).then(()=>{
                 this.loading = false
+                this.dialog = false
             alert('Rider has been requested successfully')            }).catch(()=>{
                 this.loading = false
+                this.dialog = false
               console.log('error')
             })
             
