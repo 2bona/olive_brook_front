@@ -1,12 +1,12 @@
 <template>
   <div class="home">
       <v-card max-width="600px" flat tile class=" mx-auto d-flex justify-center align-center" height="90vh" width="100vw">
-          <v-form ref="form" class="text-center jost font-weight-black" onSubmit="return false">
-<h2 class="mb-9 ">Rider Request Form</h2>
+          <v-form ref="form" class="text-center pa-4 jost font-weight-black" onSubmit="return false">
+<h4 class="mb-9 ">Rider Request Form</h4>
 <v-text-field :loading="loading" v-model="address" :rules="[rules.required]" rounded outlined filled class="grey--text text--darken-2" placeholder="Address"></v-text-field>
 <v-text-field :loading="loading" v-model="phone" :rules="[rules.required]" rounded outlined filled class="grey--text text--darken-2" placeholder="Phone"></v-text-field>
 <v-text-field :loading="loading" v-model="name" :rules="[rules.required]" rounded outlined filled class="grey--text text--darken-2" placeholder="Name"></v-text-field>
-<v-btn :loading="loading" color="orange darken-4" rounded dark x-large class="font-weight-black elevation-20 mt-9 mx-auto" @click="orderBtn()">request a rider</v-btn>
+<v-btn :loading="loading" color="orange darken-4" rounded dark x-large class="font-weight-black elevation-0 mt-9 mx-auto" @click="orderBtn()">request a rider</v-btn>
           </v-form>
       </v-card>
       <v-dialog max-width="300px" v-model="dialog">
