@@ -15,9 +15,9 @@
            </v-flex>
            <v-flex  style="position:relative;overflow:hidden" class="d-flex align-center" xs12 md6> 
                <div v-if="$vuetify.breakpoint.smAndUp" style="position:absolute;background: linear-gradient(to right, #ab396b 0%, rgba(0,0,0,0) 100%);
-height:100%;width:80%;left:0;z-index:99"></div>
+height:100%;width:80%;left:0;z-index:2"></div>
                <div v-else style="position:absolute;background: linear-gradient(to bottom, #ab396b 0%, rgba(0,0,0,0) 100%);
-height:70%;width:100%;top:0;z-index:99"></div>
+height:70%;width:100%;top:0;z-index:2"></div>
                <v-avatar  style="transform: scaleX(-1);" width="100%" tile :height="$vuetify.breakpoint.smAndDown? 'auto':'100%'" 
                
                ><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_1000,h_1000/v1664000197/IMG_1145_yz3mzu.jpg"></v-img></v-avatar></v-flex>

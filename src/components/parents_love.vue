@@ -5,9 +5,9 @@
     <v-container :class="$vuetify.breakpoint.smAndDown?'px-0':''" class="py-0" style="overflow-y:hidden">
 <v-layout wrap style="position:relative;" class="d-flex align-center ">
          <div  style="position:absolute;top:0;height:40%;background: linear-gradient(to bottom, #2a1e6f 0%, rgba(0,0,0,0) 100%);
-width:100%;z-index:99"></div>
+width:100%;z-index:2"></div>
          <div  style="position:absolute;bottom:0;height:40%;background: linear-gradient(to top, #2a1e6f 0%, rgba(0,0,0,0) 100%);
-width:100%;z-index:99"></div>
+width:100%;z-index:2"></div>
     <v-flex class="animatediv px-3" style="position:relative;max-height:550px;overflow-y:visible" xs12 md6 :class="$vuetify.breakpoint.smAndDown?'order-2 pt-12':'py-12'">
         <div style="margin-top:500px">
 

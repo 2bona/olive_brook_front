@@ -49,15 +49,14 @@ height: 100%;
 width:100%;z-index:99"></div> -->
         <!-- <div  style="z-index:99;background: linear-gradient(0deg,rgba(0,0,0,0),#a9a2311a);left:0;top:0;height:50vh;position:absolute;width:100%"></div>
         <div style="z-index:99;background: linear-gradient(180deg,rgba(0,0,0,0),#a9a2311a);left:0;bottom:0;height:50vh;position:absolute;width:100%"></div> -->
- <v-app-bar
-      absolute
-      color="transparent"
-      flat tile :height="$vuetify.breakpoint.smAndDown? '105':'140'"
-      hide-on-scroll
+ <v-app-bar   :color="!upBtn? 'transparent':'rgb(42 30 111 / 44%)'"
+      elevate-on-scroll
+      fixed style="backdrop-filter: blur(5px);"
+       tile :height="$vuetify.breakpoint.smAndDown? '105':'100'"
       scroll-target="#scroller"
     >
 
-      <v-toolbar-title><v-avatar tile :width="$vuetify.breakpoint.smAndDown? '100':'120'"  height="auto"><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/v1663335049/hmwlkskroxqkoivogpyr.webp"></v-img></v-avatar></v-toolbar-title>
+      <v-toolbar-title><v-avatar tile :width="$vuetify.breakpoint.smAndDown? '100':'100'"  height="auto"><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/v1663335049/hmwlkskroxqkoivogpyr.webp"></v-img></v-avatar></v-toolbar-title>
 
       <v-spacer></v-spacer>
       <v-app-bar-nav-icon dark color="" @click="drawer = !drawer" class="d-md-none"></v-app-bar-nav-icon>
