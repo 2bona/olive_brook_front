@@ -74,9 +74,11 @@ export default {
                 this.loading = false
                 this.dialog = false
             alert('Rider has been requested successfully')            }).catch(()=>{
-                this.loading = false
+                }).catch(()=>{
+                alert('error occured')
                 this.dialog = false
-              console.log('error')
+                this.loading = false
+
             })
             
           },
