@@ -62,7 +62,7 @@ export default {
         placeOrder(){
                 this.loading = true
             
-            axios.post('https://e-dey-app-test.herokuapp.com/api/errands/save_vendor_errand', {
+            axios.post('/errands/save_vendor_errand', {
                 to_name: this.name,
                 to_phone: this.phone,
                 to_address: this.address,
