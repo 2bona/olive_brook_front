@@ -2,7 +2,7 @@
 <div style="position:relative;background:#2a1e6f;padding:100px 0">
     <div style="position:absolute;z-index:0;    opacity: 0.07;
 height:100%;width:100%;    top: 0;">
-            <v-avatar  tile width="100%" height="100%"><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_1000/v1664344349/rjka9kohsnm1tj5ahbia.jpg"></v-img></v-avatar>
+            <v-avatar  tile width="100%" height="100%"><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_800/v1664344349/rjka9kohsnm1tj5ahbia.jpg"></v-img></v-avatar>
         </div>
 <v-container class="p" fuid>
          <!-- <div style="position: relative;width:100%" class="py-12 my-8">
@@ -33,7 +33,7 @@ width: 100%;height: 100%;top: 0;position: ;display: flex;align-items: center;
     </div>
 <div class="text-center pt-12 ">
 
-<v-btn depressed target="_blank" href="https://www.instagram.com/olivebrookjuniors/" class="text-capitalize jost mx-auto"  color="" x-large>See More on instagram <v-icon>mdi-instagram</v-icon></v-btn>
+<v-btn depressed to="/gallery" class="text-capitalize jost mx-auto"  color="" x-large>See More</v-btn>
 </div>
     </v-card>
 </v-container>

@@ -2,7 +2,7 @@
     <div style="position:relative;background-color:rgb(170,163,50);padding:100px 0" >
          <div style="position:absolute;z-index:0;    opacity: 0.07;
 height:100%;width:100%;    top: 0;">
-            <v-avatar  tile width="100%" height="100%"><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_1000/v1664344702/spdnlbygudouqgz0vxv6.jpg"></v-img></v-avatar>
+            <v-avatar  tile width="100%" height="100%"><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_800/v1664344702/spdnlbygudouqgz0vxv6.jpg"></v-img></v-avatar>
         </div>
     <v-container 
     class="" >
@@ -13,7 +13,7 @@ height:100%;width:100%;    top: 0;">
   <v-layout wrap class="mt-12 coreupcard hidden">
 <v-flex xs12 v-for="(n, i) in blogs" :key="i" class="px-2 py-4" sm6 md4>
         <v-card href="" hover width="100%" style="overflow:hidden" class="article " :style="'--order:'+(i+1)"  color="grey lighten-4">
-            <v-avatar width="100%" tile height="200"><v-img eager :src="n.image"></v-img></v-avatar>
+            <v-avatar width="100%" tile height="200"><v-img  :src="n.image"></v-img></v-avatar>
             <div class="px-3 pt-3 pb-0 justify-space-between align-center d-flex">
 
             <p style="width:calc(100%-30px); font-family:Jost!important" class="title text-truncate text-capitalize font-weight-bold mb-0"> {{n.title}}</p>

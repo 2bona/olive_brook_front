@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import gallery from '../views/gallery.vue'
 import Order from '../views/Order.vue'
 
 Vue.use(VueRouter)
@@ -10,6 +11,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/gallery',
+    name: 'gallery',
+    component: gallery
   },
   {
     path: '/order',

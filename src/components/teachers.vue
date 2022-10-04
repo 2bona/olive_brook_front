@@ -48,7 +48,7 @@
 border-radius: 8px !important;"
         class="card white"
       >
-        <v-img eager :alt="n.name + 'Olive Brook Teachers'"
+        <v-img  :alt="n.name + 'Olive Brook Teachers'"
                               style=""
                               class="ma-auto" width="100%" height="100%"
                                 :src="n.img">
@@ -110,7 +110,7 @@ export default {
           },
                 {
             name: 'Mr Chinwe',
-            img:'https://res.cloudinary.com/crushcontest-com/image/upload/v1664434663/IMG_1056_lv62r9.jpg',
+            img:'https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_700/v1664434663/IMG_1056_lv62r9.jpg',
             role: 'Teacher'
           },
           {

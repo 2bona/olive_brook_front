@@ -1,20 +1,21 @@
 <template>
   <div class="home">
-    <hero v-bind:text="text"/>
-    <classes id="classes"/>
-    <services id="services"/>
-    <academics id="about"/>
-    <parentslove />
-    <aboutus id="philosophy"/>
-    <coreareas />
-    <gallery id="gallery" v-if="images.length > 0" v-bind:images="images"/>
+    
+<keep-alive>    <hero v-bind:text="text"/></keep-alive>
+<keep-alive>    <classes id="classes"/></keep-alive>
+<keep-alive>    <services id="services"/></keep-alive>
+<keep-alive>    <academics id="about"/></keep-alive>
+<keep-alive>    <parentslove /></keep-alive>
+<keep-alive>    <aboutus id="philosophy"/></keep-alive>
+<keep-alive>    <coreareas /></keep-alive>
+<keep-alive>    <gallery id="gallery" v-if="images.length > 0" v-bind:images="images"/></keep-alive>
     <!-- <students /> -->
-    <blog id="blog" v-bind:blogs="blogs"/>
-    <teachers />
-    <event  v-bind:eventdates="eventdates"/>
-    <eventcards id="events" v-bind:events="events"/>
-    <contact id="contact"/>
-    <footers />
+<keep-alive>    <blog id="blog" v-bind:blogs="blogs"/></keep-alive>
+<keep-alive>    <teachers /></keep-alive>
+<keep-alive>    <event  v-bind:eventdates="eventdates"/></keep-alive>
+<keep-alive>    <eventcards id="events" v-bind:events="events"/></keep-alive>
+<keep-alive>    <contact id="contact"/></keep-alive>
+<keep-alive>    <footers /></keep-alive>
   </div>
 </template>
 
@@ -36,6 +37,7 @@ import blog from '@/components/blog.vue'
 import services from '@/components/services.vue'
 import eventcards from '@/components/eventcards.vue'
 import classes from '@/components/classes.vue'
+
 
 export default {
   name: 'Home',
@@ -59,6 +61,7 @@ export default {
   data: () => ({
     images: [],
     blogs: [],
+ 
     events: [],
     eventdates: [],
     text: {},
@@ -68,8 +71,33 @@ export default {
     this.getImages()
     this.getEvents()
     this.getBlogs()
+    this.observe()
+
   },
-  methods:{
+  methods:{  
+    observe(){
+      const config = {
+  root: null, // avoiding 'root' or setting it to 'null' sets it to default value: viewport
+  rootMargin: '0px',
+  threshold: 0.1
+};
+      const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        // console.log(entry)
+        if (entry.intersectionRatio > 0) {
+          entry.target.classList.add('show');          
+        }
+      })
+    }, config)
+
+    const hiddenElements = document.querySelectorAll('.hidden');
+    hiddenElements.forEach((el)=> {
+      observer.observe(el);
+        el.addEventListener('animationend', function () {
+          el.classList.remove('show');
+        });
+        });
+},
         getImages(){
             axios.get('/gallery').then((res)=>{
               this.images = res.data.success.gallery
@@ -107,6 +135,7 @@ export default {
               console.log('error')
             })
           },
+      
   }
 }
 

@@ -6,7 +6,7 @@
 
         <v-card outlined color="grey lighten-2" flat style="border-radius:8px!important;margin:100px 0 0 0" 
         class="objimg object overflow-hidden" width="32%" :height="$vuetify.breakpoint.smAndDown? '300px':'600px'" >
-           <v-avatar tile  width="100%" height="100%"><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_900/v1664018684/IMG_1119_lebgni.jpg"></v-img></v-avatar>
+           <v-avatar tile  width="100%" height="100%"><v-img  src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_700/v1664018684/IMG_1119_lebgni.jpg"></v-img></v-avatar>
          
         <h6 class="jost grey lighten-2 text--darken-3 font-weight- grey--text mb-0"  :class="$vuetify.breakpoint.smAndDown? 'pa-2':'px-6 py-5 pr-0'" :style="$vuetify.breakpoint.smAndDown? 'font-size:1.04rem!important':''" 
         style="    width: 100%;    text-shadow: none;
@@ -14,7 +14,7 @@
     position: absolute;z-index:9999;
     bottom: 0;">Academic Excellence</h6></v-card>
         <v-card  class="objimg overflow-hidden object2"  style="border-radius:8px!important" width="32%" img="" :height="$vuetify.breakpoint.smAndDown? '300px':'370px'" outlined color="grey lighten-3" flat>
-                       <v-avatar tile  width="100%" height="100%"><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_900/v1664018688/IMG_1115_ob0ssh.jpg"></v-img></v-avatar>
+                       <v-avatar tile  width="100%" height="100%"><v-img  src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_700/v1664018688/IMG_1115_ob0ssh.jpg"></v-img></v-avatar>
 
           
         <h6 class="jost grey lighten-2 text--darken-3 font-weight- grey--text mb-0"  :class="$vuetify.breakpoint.smAndDown? 'pa-1':'px-6 py-5 pr-0'" :style="$vuetify.breakpoint.smAndDown? 'font-size:0.99rem!important':''" style="    width: 100%;    text-shadow: none;
@@ -23,7 +23,7 @@
     bottom: 0;">Independepent Thought</h6>
         </v-card>
         <v-card class="objimg overflow-hidden object3"  style="border-radius:8px!important;margin:100px 0 0 0" width="32%" img="" :height="$vuetify.breakpoint.smAndDown? '230px':'430px'" outlined color="grey lighten-3" flat>
-                                 <v-avatar tile  width="100%" height="100%"><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_900/v1664018679/IMG_1096_jfanbd.jpg"></v-img></v-avatar>
+                                 <v-avatar tile  width="100%" height="100%"><v-img  src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_700/v1664018679/IMG_1096_jfanbd.jpg"></v-img></v-avatar>
      
         <h6 class="jost grey lighten-2 text--darken-3 font-weight- grey--text mb-0"  :class="$vuetify.breakpoint.smAndDown? 'pa-2':'px-6 py-5 pr-0'" :style="$vuetify.breakpoint.smAndDown? 'font-size:1.04rem!important':''" style="    width: 100%;    text-shadow: none;
 
@@ -42,7 +42,7 @@ Our mission is simply to Instill Excellence in Learning & Character in Every Chi
   <div style=";display:flex" class="justify-space-between align-end">
 
         <v-card class="objimg overflow-hidden object3"  style="border-radius:8px!important;margin:0 0 100px 0" width="32%" img="" :height="$vuetify.breakpoint.smAndDown? '290px':'500px'" outlined color="grey lighten-3" flat >
-                         <v-avatar tile  width="100%" height="100%"><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/v1664018674/IMG_1065_odpvfh.jpg"></v-img></v-avatar>
+                         <v-avatar tile  width="100%" height="100%"><v-img  src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_700/v1664018674/IMG_1065_odpvfh.jpg"></v-img></v-avatar>
 
                 
         <h6 class="jost grey lighten-2 text--darken-3 font-weight- grey--text mb-0" :class="$vuetify.breakpoint.smAndDown? 'pa-2':'px-6 py-5 pr-0'" :style="$vuetify.breakpoint.smAndDown? 'font-size:1.04rem!important':''" style="    width: 100%;    text-shadow: none;
@@ -51,7 +51,7 @@ Our mission is simply to Instill Excellence in Learning & Character in Every Chi
     bottom: 0;">Excellence in Character</h6>
         </v-card>
         <v-card class="objimg overflow-hidden object2"  style="border-radius:8px!important" width="32%"  :height="$vuetify.breakpoint.smAndDown? '250px':'400px'" outlined color="grey lighten-3" flat>
-           <v-avatar tile  width="100%" height="100%"><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_900/v1664018711/IMG_1193_rclokc.jpg"></v-img></v-avatar>
+           <v-avatar tile  width="100%" height="100%"><v-img  src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_700/v1664018711/IMG_1193_rclokc.jpg"></v-img></v-avatar>
 
       
         <h6 class="jost grey lighten-2 text--darken-3 font-weight- grey--text mb-0"  :class="$vuetify.breakpoint.smAndDown? 'pa-2':'px-6 py-5 pr-0'" 
@@ -61,7 +61,7 @@ Our mission is simply to Instill Excellence in Learning & Character in Every Chi
     bottom: 0;">Respect</h6>
         </v-card>
         <v-card class="objimg overflow-hidden object"  style="border-radius:8px!important;margin:0 0 100px 0" width="32%"  :height="$vuetify.breakpoint.smAndDown? '300px':'650px'" outlined color="grey lighten-3" flat>
-        <v-avatar tile  width="100%" height="100%"><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/v1664018660/C0044.MP4.16_30_09_20.Still001_ly0eur.jpg"></v-img></v-avatar>
+        <v-avatar tile  width="100%" height="100%"><v-img  src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_700/v1664018660/C0044.MP4.16_30_09_20.Still001_ly0eur.jpg"></v-img></v-avatar>
      
         <h6 class="jost grey lighten-2 text--darken-3 font-weight- grey--text mb-0"  :class="$vuetify.breakpoint.smAndDown? 'pa-2':'px-6 py-5 pr-0'"
          :style="$vuetify.breakpoint.smAndDown? 'font-size:1.04rem!important':''"

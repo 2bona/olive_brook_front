@@ -1,12 +1,8 @@
 <template>
-<div  style="background-color: #f5f5f5;padding:100px 0">
+<div id="scroller" style="background-color: #f5f5f5;padding:100px 0">
 
     <v-container fluid style="min-height:" class="" >
     <div >
-
-     
-     
-
 
         <p style="color:#aaa332;font-family:Jost!important" class="font-weight-regular text-center display-3  jost">Our Services</p>
 <p class="px-9 mx-auto grey--text text--darken-1 text-center  jost " style="max-width:600px">We offer additional extracurricular activities and lessons in our purposeful afterschool and holiday programmes.</p>
