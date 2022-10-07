@@ -7,14 +7,38 @@ height:100%;width:100%;">
         </div>
         <v-container style="position:relative;">
 
- <v-layout style="z-index:99" class="py-6 pt-12 justify-space-between d-flex" wrap>
-<v-flex style="z-index:99" class="" xs12 sm4 md4 >
+ <v-layout style="z-index:1" class="py-6 pt-12 justify-space-between d-flex" wrap>
+<v-flex style="z-index:1" class="" xs12 sm4 md4 >
     <div class="d-flex align-center">
 
 <v-avatar style="    filter: grayscale(1.8);
-    opacity: 0.6;" class="mr-3" size="100" tile><v-img contain src="https://res.cloudinary.com/crushcontest-com/image/upload/v1663335049/hmwlkskroxqkoivogpyr.webp"></v-img></v-avatar>
-<h5 class="ml-0 jost grey--text text--lighten-3 font-weight-medium">Olive Brook International</h5>
+    opacity: 0.6;" class="mr-3" size="100" tile><v-img contain src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_400/v1665065309/Olive_Brook_Juniors_International_School_a_xi8xzg.png"></v-img></v-avatar>
+<h5 style="color:#cd4481;font-size:1.44rem" class="ml-0 krist  font-weight-medium">
+        <span style="color: #aaa332">O</span>
+    <span>l</span>
+    <span style="color: #1b1920">i</span>
+    <span style="color: #762017">v</span>
+    <span style="color: #3189b8">e</span>
+    <span > Brook </span>
+    <span style="color: #1b1920">I</span>
+    <span style="color: #aaa332">n</span>
+    <span>t</span>
+    <span style="color: #1b1920">e</span>
+    <span style="color: #1b1920">r</span>
+    <span style="color: #3189b8">n</span>
+    <span>a</span>
+    <span style="color: #aaa332">t</span>
+    <span style="color: #762017">i</span>
+    <span style="color: #3189b8">o</span>
+    <span style="color: #1b1920">n</span>
+    <span>a</span>
+    <span style="color: #3189b8">l</span>
+    <span> School </span>
+
+</h5>
     </div>
+
+
     <p style="font-size:15px" class="pt-0 text-justify grey--text jost text--lighten-2">Welcome to the Olive Brook International family! You have made the smart choice to entrust your child's formative years in our hands and take advantage of our rich blend of the British and Nigerian curriculum, and the Montessori method. A great academic education, coupled with strong moral values, is the best gift you can give to your child. We provide all
          that and more in a a welcoming, stimulating and challenging learning environment.Your child's academic and holistic development
           is guaranteed with our one stop solution for an excellent and affordable education. All our kids receive individualised attention,
@@ -22,7 +46,7 @@ height:100%;width:100%;">
         methods for children with development delays and special needs. Welcome! </p>
         <p  class="pl-4 mt-7 jost " style="border-left: 2px solid purple">Director's Note</p>
 </v-flex>
-<v-flex style="z-index:99" class=" pa-3 pt-11 pr-9" xs12 sm3 md3 >
+<v-flex style="z-index:" class=" pa-3 pt-11 pr-9" xs12 sm3 md3 >
 <h6 class="jost mb-6 text-uppercase grey--text text--lighten-3 font-weight-bold">Get in Touch</h6>
 
 <div class="pb-1">
@@ -44,7 +68,7 @@ height:100%;width:100%;">
 </div>
 
 </v-flex>
-<v-flex style="z-index:99" class=" pa-3 pt-11" xs12 sm3 md3 >
+<v-flex style="z-index:" class=" pa-3 pt-11" xs12 sm3 md3 >
 <h6 class="jost mb-6 grey--text text--lighten-3 text-uppercase font-weight-bold">Useful Links</h6>
 
 <div class="pb-3">
@@ -52,7 +76,27 @@ height:100%;width:100%;">
 <p class="d-flex footp align-center jost"><v-icon class="mr-2" color="white">mdi-link</v-icon>Gallery</p>
 <p class="d-flex footp align-center jost"><v-icon class="mr-2" color="white">mdi-link</v-icon>Contact</p>
 </div>
-       <p class="d-flex mt-12 text-left footp align-center grey--text jost mb-0" style="font-size:12px"> &copy; Copyright Olive Brook International 2022.</p>
+       <p class=" mt-12 text-left footp  grey--text jost mb-0" style="font-size:12px"> &copy; Copyright <span class="krist mx-1" style="color:#cd4481">
+           <span style="color: #aaa332"> O</span>
+    <span>l</span>
+    <span style="color: #1b1920">i</span>
+    <span style="color: #762017">v</span>
+    <span  class="mr-1" style="color: #3189b8">e</span>
+    <span  class="mr-1" > Brook </span>
+    <span style="color: #1b1920"> I</span>
+    <span style="color: #aaa332">n</span>
+    <span>t</span>
+    <span style="color: #1b1920">e</span>
+    <span style="color: #1b1920">r</span>
+    <span style="color: #3189b8">n</span>
+    <span>a</span>
+    <span style="color: #aaa332">t</span>
+    <span style="color: #762017">i</span>
+    <span style="color: #3189b8">o</span>
+    <span style="color: #1b1920">n</span>
+    <span>a</span>
+    <span class="mr-1" style="color: #3189b8">l </span>
+    <span> School </span></span>  2022.</p>
 
 </v-flex>
  </v-layout>        </v-container>

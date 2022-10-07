@@ -16,7 +16,7 @@ axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.post["Content-Type"] = "application/x-www-form-urlencoded";
 axios.defaults.headers.post["Accept"] = "application/json";
 axios.defaults.headers.post["Credentials"] = true;
-axios.defaults.baseURL = "https://olivebrookinternational.com/backend/api";
+axios.defaults.baseURL = "http://127.0.0.1/api";
 Vue.use(axios);
 Vue.filter("getDay", function(created) {
   return moment(created).format("ddd");

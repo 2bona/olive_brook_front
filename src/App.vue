@@ -7,27 +7,31 @@
       scroll-target="#scroller"
     >
 
-      <v-toolbar-title><v-avatar @click="$router.push('/')" tile :width="$vuetify.breakpoint.smAndDown? '100':'100'"  height="auto"><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/v1663335049/hmwlkskroxqkoivogpyr.webp"></v-img></v-avatar></v-toolbar-title>
+      <v-toolbar-title><v-avatar @click="$router.push('/')" tile :width="$vuetify.breakpoint.smAndDown? '100':'100'"  height="auto">
+      <v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_400/v1665065309/Olive_Brook_Juniors_International_School_a_xi8xzg.png"></v-img></v-avatar></v-toolbar-title>
 
       <v-spacer></v-spacer>
       <v-app-bar-nav-icon dark color="grey lighten-1" @click="drawer = !drawer" class="d-md-none"></v-app-bar-nav-icon>
 
 
 
-      <v-btn href="#services" class=" jost grey--text text--lighten-1 font-weight-bold hidden-sm-and-down" text>
-       our services
+      <v-btn href="http://localhost:8081/#classes" class=" jost grey--text text--lighten-1 font-weight-bold hidden-sm-and-down" text>
+       Our Classes
       </v-btn>
-      <v-btn href="#about" class=" jost grey--text text--lighten-1 font-weight-bold hidden-sm-and-down" text>
+      <v-btn href="http://localhost:8081/#services" class=" jost grey--text text--lighten-1 font-weight-bold hidden-sm-and-down" text>
+       Extra services
+      </v-btn>
+      <v-btn href="http://localhost:8081/#about" class=" jost grey--text text--lighten-1 font-weight-bold hidden-sm-and-down" text>
        About us
       </v-btn>
-      <v-btn href="#events" class=" jost grey--text text--lighten-1 font-weight-bold hidden-sm-and-down" text>
+      <v-btn href="http://localhost:8081/#events" class=" jost grey--text text--lighten-1 font-weight-bold hidden-sm-and-down" text>
        events
       </v-btn>
-      <v-btn href="#gallery" class=" jost grey--text text--lighten-1 font-weight-bold hidden-sm-and-down" text>
+      <v-btn href="http://localhost:8081/#gallery" class=" jost grey--text text--lighten-1 font-weight-bold hidden-sm-and-down" text>
        gallery
       </v-btn>
 
-      <v-btn href="#contact" class=" jost grey--text text--lighten-1 font-weight-bold hidden-sm-and-down" text>
+      <v-btn href="http://localhost:8081/#contact" class=" jost grey--text text--lighten-1 font-weight-bold hidden-sm-and-down" text>
        contact
       </v-btn>
 
@@ -35,9 +39,9 @@
   <div
       style="     position: fixed;
     margin: auto;
-    bottom: 45px;
+    bottom: 25px;
     width: 100%;
-    z-index: 99999;
+    z-index: 9;
 "    >
   
       <v-scale-transition origin="center center">
@@ -54,7 +58,7 @@
           class="elevation-24"
           :size="'20px'"
           style="background: linear-gradient(315deg, #ffffff, #e6e6e6);
-;z-index:999;margin-bottom: 60px;"
+;z-index:3;margin-bottom: 20px;"
         >
           <v-icon size="28" color="grey darken-4">mdi-chevron-up</v-icon>
         </v-btn>
@@ -72,16 +76,39 @@ width:100%;z-index:99"></div> -->
        dark height="100vh"
       temporary color="#2a1e6f" style=""
     >
-      <v-list-item class="py-3 px-0 d-flex align-center" >
-        <v-list-item-avatar class="my-5" width="130px" height="auto">
-          <v-img contain eager src="https://res.cloudinary.com/crushcontest-com/image/upload/v1663335049/hmwlkskroxqkoivogpyr.webp"></v-img>
-        </v-list-item-avatar> <span style="line-height:1.11;color:#aaa332;font-family:Jost!important;"  class="title font-weight-bold"> Olive Brook Intl. School.</span>
+      <v-list-item @click="$router.push('/')" class="py-3 px-0 d-flex align-center" >
+        <v-list-item-avatar  class="my-2" width="160px" height="auto">
+          <v-img contain eager src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_400/v1665065309/Olive_Brook_Juniors_International_School_a_xi8xzg.png"></v-img>
+        </v-list-item-avatar>
+         <span style="line-height:1.21;color:#aaa332;font-family:Jost!important;"  class="title font-weight-bold">
+            <h5 style="color:#cd4481;font-size:1.34rem" class="ml-0 krist  font-weight-medium">
+        <span style="color: #aaa332">O</span>
+    <span>l</span>
+    <span style="color: #1b1920">i</span>
+    <span style="color: #762017">v</span>
+    <span style="color: #3189b8">e</span>
+    <span > Brook </span>
+    <span style="color: #1b1920">I</span>
+    <span style="color: #aaa332">n</span>
+    <span>t</span>
+    <span style="color: #1b1920">e</span>
+    <span style="color: #1b1920">r</span>
+    <span style="color: #3189b8">n</span>
+    <span>a</span>
+    <span style="color: #aaa332">t</span>
+    <span style="color: #762017">i</span>
+    <span style="color: #3189b8">o</span>
+    <span style="color: #1b1920">n</span>
+    <span>a</span>
+    <span style="color: #3189b8">l</span>
+    <span> School </span>
+</h5></span>
 
       </v-list-item>
 
       <v-divider></v-divider>
 
-      <v-list >
+      <v-list style="height: calc(100vh - 327.7px);overflow: scroll;">
         <v-list-item
           v-for="item in items"
           :key="item.title"
@@ -91,7 +118,7 @@ width:100%;z-index:99"></div> -->
          
 
           <v-list-item-content>
-            <v-list-item-title style="font-family:Jost!important" class="headline grey--text text--lighten-1 text-capitalize font-weight-bold  jost">{{ item.title }}</v-list-item-title>
+            <v-list-item-title style="font-family:Jost!important" class="headline grey--text text--lighten-1 text-capitalize font-weight-medium  jost">{{ item.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -102,7 +129,28 @@ width:100%;z-index:99"></div> -->
        <p class="d-flex footp align-center jost" style="font-size:15px">18 Patrick O. Bokkor Street, 900108, Jabi, Abuja, Nigeria.</p>
 
 
-       <p class="d-flex footp align-center grey--text text--darken-2 jost mb-0" style="font-size:12px"> &copy; Copyright Olive Brook International 2022.</p>
+          <p class=" mt-8 text-left footp  grey--text jost mb-0" style="font-size:12px"> &copy; Copyright <span class="krist mx-1" style="color:#cd4481">
+           <span style="color: #aaa332"> O</span>
+    <span>l</span>
+    <span style="color: #1b1920">i</span>
+    <span style="color: #762017">v</span>
+    <span  class="mr-1" style="color: #3189b8">e</span>
+    <span  class="mr-1" > Brook </span>
+    <span style="color: #1b1920"> I</span>
+    <span style="color: #aaa332">n</span>
+    <span>t</span>
+    <span style="color: #1b1920">e</span>
+    <span style="color: #1b1920">r</span>
+    <span style="color: #3189b8">n</span>
+    <span>a</span>
+    <span style="color: #aaa332">t</span>
+    <span style="color: #762017">i</span>
+    <span style="color: #3189b8">o</span>
+    <span style="color: #1b1920">n</span>
+    <span>a</span>
+    <span class="mr-1" style="color: #3189b8">l </span>
+    <span> School </span></span>  2022.</p>
+
         </div>
               <v-layout class="d-flex justify-space-between">
           <v-flex xs4 class="text-center"> <v-btn block href="tel:+2348033685498" target="_blank" tile x-large depressed color="#aaa332"><v-icon>mdi-phone</v-icon></v-btn></v-flex>
@@ -179,7 +227,7 @@ html {
 .coreallcard.hidden{
     opacity: 0;
     filter: blur(5px);
-    transform:translateX(10%);
+    transform:translateX(5%);
     transition: all 1s
 }
 .coreallcard.show{
@@ -256,11 +304,12 @@ export default {
           upBtn: false,
     drawer: null,
         items: [
-          { title: 'Our Services', route: '/#services' },
-          { title: 'About us', route: '/#about' },
-          { title: 'Gallery', route: '/#gallery' },
-          { title: 'Contact us', route: '/#contact' },
-          { title: 'Events', route: '/#events' },
+          { title: 'Our Classes', route: 'http://localhost:8081/#classes' },
+          { title: 'Extra Services', route: 'http://localhost:8081/#services' },
+          { title: 'About us', route: 'http://localhost:8081/#about' },
+          { title: 'Gallery', route: 'http://localhost:8081/#gallery' },
+          { title: 'Contact us', route: 'http://localhost:8081/#contact' },
+          { title: 'Events', route: 'http://localhost:8081/#events' },
         ],
      
   }),

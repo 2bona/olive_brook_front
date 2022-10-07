@@ -13,7 +13,7 @@
 
   <v-layout class="my-8" wrap>
 <v-flex xs12 class="py-8 px-4" md6>
-    <v-form>
+    <v-form ref="form">
         <v-layout wrap>
 <v-flex xs12 sm6 class="px-3">
 
@@ -54,7 +54,7 @@ v-model="message"  color="#aaa332" class="jost" placeholder="Message"></v-textar
 height:100%;width:80%;left:0;z-index:99"></div>
        <div v-else style="position:absolute;background: linear-gradient(to bottom, #fefefe 0%, rgba(0,0,0,0) 100%);
 height:70%;width:100%;top:0;z-index:99"></div>
-    <v-avatar tile width="100%" height="100%" ><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_1000,h_1000/v1664018686/IMG_1233_u0yvvb.jpg"></v-img></v-avatar>
+    <v-avatar tile width="100%" height="100%" ><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_1000/v1665062979/IMG_8393_a5cdjg.jpg"></v-img></v-avatar>
      </v-flex>
   </v-layout> 
 </v-card>
